@@ -1,0 +1,91 @@
+/*公共样式*/
+body{background:#fff;margin:0;padding:0;font-family:"Microsoft YaHei","微软雅黑",Tahoma,Arial}
+a, abbr, address, article, aside, audio, b, blockquote, body, caption, cite, code, dd, del, dfn, dialog, div, dl, dt, em, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, sup, tfoot, th, thead, time, tr, ul, var, video{padding:0;margin:0}
+/*设置背景图的样式*/
+header{
+	background-image: url(../img/banner.png);
+	background-repeat: no-repeat;
+	height: 15rem;
+	background-size: cover;
+}
+/*设置header下row和container的样式*/
+header .row,header .container{
+	height: 100%;
+}
+/*设置s1的样式*/
+.s1{
+	width: 5rem;
+	height: 5rem;
+}
+/*设置高亮颜色*/
+.nav-tabs .nav-link.active{
+	color: #f7080b;
+}
+/*设置con_nav的字体颜色*/
+.con_nav a{
+	color: #919191;
+}
+/*设置cont的背景色*/
+.cont{
+	background-color: #f5f6fa;
+}
+/*设置subject的样式*/
+.subject .nav-link.active {
+    border: none;
+    border-bottom: 1px solid #f7080b;
+}
+.subject .nav-link:hover{
+    border-color: #fff;
+    border-bottom-color: #f7080b;
+    color: #f7080b;
+}
+/*设置subject下的a的字体颜色*/
+.subject a{
+	color: #919191;
+}
+/*设置cont下border的样式*/
+.cont .border{
+	border-color: #dee2e6;
+}
+/*设置text-red的样式*/
+.text-red{
+	color: #f7080b;
+}
+/*设置card-text下span的样式*/
+.card-text span{
+	font-size: 0.875rem;
+}
+/*设置ask的样式*/
+.ask li a{
+	font-size: 0.875rem;
+	color: #000;
+}
+.ask li .nav-link.active{
+	background-color: #979797;
+}
+/*设置time的字体样式*/
+.time{
+	font-size: 0.875rem;
+}
+/*设置sub的样式*/
+.sub{
+	background-color: #f30c0c;
+	border-radius: 0;
+	letter-spacing: 0.3rem;
+	color: #fff;
+}
+/*设置time下a的样式*/
+.time a{
+	text-decoration: none;
+	color: #5f3d3d80;
+}
+/*设置follow的高*/
+.follow{
+	text-align: center;
+	height: 4rem;
+	padding-top: 0.4rem;
+}
+.follow a{
+	color: #919191;
+	text-decoration: none;
+}
